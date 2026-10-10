@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GeoMap Inc. S.A. — Ingenieria del territorio</title>
+<meta name="description" content="Geodesia, topografia, batimetria, fotogrametria con UAV, teledeteccion, cartografia, SIG y estudios ambientales en Panama y la region.">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta name="theme-color" content="#FFFFFF">
+<meta property="og:title" content="GeoMap Inc. S.A. — Ingenieria del territorio">
+<meta property="og:description" content="Geodesia, topografia, batimetria, fotogrametria con UAV, teledeteccion, cartografia, SIG y estudios ambientales en Panama y la region.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/hero-presa.jpg">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#FFFFFF;color:#15191E;font-family:'Inter',system-ui,-apple-system,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:'Inter Display','Inter',system-ui,sans-serif;margin:0;line-height:1.08;letter-spacing:-0.01em;font-weight:600}
+p{margin:0}
+ul{margin:0;padding:0;list-style:none}
+img{display:block}
+a{color:#D4002B;text-decoration:none}
+a:hover{color:#9F0020}
+.mono{font-family:'Inter',system-ui,sans-serif;text-transform:uppercase;letter-spacing:0.14em;font-size:11.5px;font-weight:600;font-variant-numeric:tabular-nums}
+.nav a{color:#15191E}
+.nav a:hover{color:#D4002B}
+.onDark a{color:#FFFFFF}
+.onDark a:hover{color:#EA8095}
+.card:hover{border-color:#D4002B}
+.btn-red:hover{background:#9F0020;color:#FFFFFF}
+.btn-line:hover{background:#15191E;color:#FFFFFF;border-color:#15191E}
+.pend{background:#FBE6EA;color:#9F0020;padding:2px 8px;font-family:'Inter',system-ui,sans-serif;font-size:11px;letter-spacing:0.08em;text-transform:uppercase;font-weight:600}
+</style>
+</head>
+<body>
+<div style="width: 100%; min-height: 100%; background: #FFFFFF">
+
+  <!-- barra superior -->
+  <div style="background: #15191E; color: #C3CAD3">
+    <div class="mono onDark" style="max-width: 1240px; margin: 0 auto; padding: 9px clamp(20px, 4vw, 56px); display: flex; flex-wrap: wrap; gap: 8px 28px; justify-content: space-between; align-items: center">
+      <span>Ciudad de Panamá · 8°58′N 79°32′W</span>
+      <span style="display: flex; flex-wrap: wrap; gap: 6px 22px; align-items: center"><a href="mailto:info@geomapgroup.com">info@geomapgroup.com</a><a href="https://wa.me/5491154170407" aria-label="Contactar por WhatsApp" title="WhatsApp" style="display: inline-flex; align-items: center; gap: 7px"><svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11.4c0 4-3.6 7.3-8 7.3a9 9 0 0 1-2.9-.5L4 19.8l1.5-3.8A7 7 0 0 1 4 11.4C4 7.4 7.6 4 12 4s8 3.4 8 7.4z"></path></svg>WhatsApp</a></span>
+    </div>
+  </div>
+
+  <!-- navegación -->
+  <header style="background: #FFFFFF; border-bottom: 1px solid #E2E5E9">
+    <div class="nav" style="max-width: 1240px; margin: 0 auto; padding: 18px clamp(20px, 4vw, 56px); display: flex; flex-wrap: wrap; align-items: center; gap: 20px 36px">
+      <a href="index.html" style="display: block; flex: 0 0 auto" aria-label="GeoMap Inc. — inicio"><img src="img/logo-horizontal.svg" alt="GeoMap Inc. S.A. — Ingeniería del territorio" style="height: 28px; width: auto"></a>
+      <nav style="display: flex; flex-wrap: wrap; gap: 10px 28px; align-items: center; margin-left: auto; font-size: 15px; font-weight: 500">
+        <a href="servicios.html">Servicios</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+        <a class="btn-red" href="contacto.html" style="background: #D4002B; color: #FFFFFF; padding: 11px 20px; font-size: 14px; font-weight: 600; letter-spacing: 0.01em; min-height: 44px; display: inline-flex; align-items: center">Solicitar propuesta</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- hero -->
+  <section style="position: relative; background: #15191E; color: #FFFFFF; overflow: hidden">
+    <img src="img/hero-presa.jpg" alt="Vista aérea de una obra hidráulica levantada con dron" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover">
+    <div style="position: absolute; inset: 0; background: linear-gradient(100deg, rgba(15,18,23,0.94) 0%, rgba(15,18,23,0.80) 46%, rgba(15,18,23,0.30) 100%)"></div>
+    <div style="position: relative; max-width: 1240px; margin: 0 auto; padding: clamp(64px, 8vw, 128px) clamp(20px, 4vw, 56px) clamp(48px, 5vw, 80px)">
+      <p class="mono" style="color: #EA8095; margin-bottom: 26px">GeoMap Inc. S.A. · Ciudad de Panamá</p>
+      <h1 style="font-size: clamp(44px, 6vw, 82px); max-width: 14ch; margin-bottom: 28px">Ingeniería del territorio</h1>
+      <p style="font-size: clamp(18px, 1.6vw, 21px); max-width: 60ch; color: #D9DEE4; margin-bottom: 38px">Ejecutamos levantamientos geodésicos, topográficos, batimétricos y fotogramétricos, y producimos la cartografía, las bases de datos espaciales y las plataformas web que se derivan de ellos. Trabajamos en Panamá y en proyectos de Centroamérica y el Cono Sur.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 14px">
+        <a class="btn-red" href="servicios.html" style="background: #D4002B; color: #FFFFFF; padding: 15px 28px; font-weight: 600; font-size: 16px; min-height: 48px; display: inline-flex; align-items: center">Ver servicios</a>
+        <a class="btn-line" href="proyectos.html" style="border: 1px solid rgba(255,255,255,0.55); color: #FFFFFF; padding: 15px 28px; font-weight: 600; font-size: 16px; min-height: 48px; display: inline-flex; align-items: center">Proyectos realizados</a>
+      </div>
+    </div>
+    <div style="position: relative; border-top: 1px solid rgba(255,255,255,0.18)">
+      <div style="max-width: 1240px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 56px); display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr))">
+        <div style="padding: 26px 24px 26px 0; border-right: 1px solid rgba(255,255,255,0.14)">
+          <div style="font-family: 'Inter Display', 'Inter', sans-serif; font-size: 27px; font-weight: 700; color: #FFFFFF">Vuelo</div>
+          <div class="mono" style="color: #9BA4B0; margin-top: 7px">UAV de ala fija y multirrotor</div>
+        </div>
+        <div style="padding: 26px 24px; border-right: 1px solid rgba(255,255,255,0.14)">
+          <div style="font-family: 'Inter Display', 'Inter', sans-serif; font-size: 27px; font-weight: 700; color: #FFFFFF">Campo</div>
+          <div class="mono" style="color: #9BA4B0; margin-top: 7px">GNSS, redes y mobile mapping</div>
+        </div>
+        <div style="padding: 26px 24px; border-right: 1px solid rgba(255,255,255,0.14)">
+          <div style="font-family: 'Inter Display', 'Inter', sans-serif; font-size: 27px; font-weight: 700; color: #FFFFFF">Agua</div>
+          <div class="mono" style="color: #9BA4B0; margin-top: 7px">Embarcación propia y batimetría</div>
+        </div>
+        <div style="padding: 26px 0 26px 24px">
+          <div style="font-family: 'Inter Display', 'Inter', sans-serif; font-size: 27px; font-weight: 700; color: #FFFFFF">Satélite</div>
+          <div class="mono" style="color: #9BA4B0; margin-top: 7px">Imágenes ópticas y de radar</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- intro -->
+  <section style="max-width: 1240px; margin: 0 auto; padding: clamp(64px, 7vw, 108px) clamp(20px, 4vw, 56px) clamp(40px, 4vw, 64px); display: flex; flex-wrap: wrap; gap: 48px 72px; align-items: flex-start">
+    <div style="flex: 1 1 300px; min-width: 0">
+      <p class="mono" style="color: #D4002B; margin-bottom: 18px">01 — La empresa</p>
+      <h2 style="font-size: clamp(30px, 3.2vw, 44px); max-width: 18ch">Geomática aplicada a infraestructura, catastro y ambiente</h2>
+    </div>
+    <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+      <p style="font-size: 19px">GeoMap Inc. S.A. tiene amplia experiencia en geodesia, topografía, fotogrametría con UAV, cartografía, sistemas de información geográfica, teledetección y estudios ambientales. Trabajamos para instituciones públicas, operadores de infraestructura, consorcios internacionales y empresas privadas.</p>
+      <p style="color: #6B7480">Un mismo equipo lleva el proyecto de principio a fin: el apoyo geodésico, la captura en campo, el procesamiento y la entrega de los productos. Usamos instrumental propio y software de código abierto, de modo que el cliente conserva sus datos y sus sistemas sin quedar atado a licencias de terceros.</p>
+      <a href="nosotros.html" style="font-weight: 600; border-bottom: 2px solid #D4002B; align-self: flex-start; padding-bottom: 2px">Conocer el equipo y los aliados →</a>
+    </div>
+  </section>
+
+  <!-- servicios -->
+  <section style="max-width: 1240px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 56px) clamp(64px, 7vw, 100px)">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1px; background: #E2E5E9; border: 1px solid #E2E5E9">
+      <div class="card" style="background: #FFFFFF; padding: 34px 30px 32px; border: 1px solid transparent">
+        <p class="mono" style="color: #6B7480; margin-bottom: 16px">01</p>
+        <h3 style="font-size: 22px; margin-bottom: 12px">Geodesia y redes</h3>
+        <p style="font-size: 16px; color: #6B7480">Diseño, densificación y medición de redes geodésicas; estaciones CORS, control de primer y segundo orden, modelos de geoide local.</p>
+      </div>
+      <div class="card" style="background: #FFFFFF; padding: 34px 30px 32px; border: 1px solid transparent">
+        <p class="mono" style="color: #6B7480; margin-bottom: 16px">02</p>
+        <h3 style="font-size: 22px; margin-bottom: 12px">Topografía y GNSS</h3>
+        <p style="font-size: 16px; color: #6B7480">Levantamientos RTK y post-proceso, mensuras, replanteos, control e inspección de obra y cálculo de movimiento de suelos.</p>
+      </div>
+      <div class="card" style="background: #FFFFFF; padding: 34px 30px 32px; border: 1px solid transparent">
+        <p class="mono" style="color: #6B7480; margin-bottom: 16px">03</p>
+        <h3 style="font-size: 22px; margin-bottom: 12px">Batimetría y estudios bentónicos</h3>
+        <p style="font-size: 16px; color: #6B7480">Embarcación propia para levantamientos batimétricos, caracterización y muestreo de fondos, y apoyo a obras portuarias y de dragado.</p>
+      </div>
+      <div class="card" style="background: #FFFFFF; padding: 34px 30px 32px; border: 1px solid transparent">
+        <p class="mono" style="color: #6B7480; margin-bottom: 16px">04</p>
+        <h3 style="font-size: 22px; margin-bottom: 12px">Fotogrametría y UAV</h3>
+        <p style="font-size: 16px; color: #6B7480">Vuelos con ala fija y multirrotor, apoyo fotogramétrico, ortofotos, modelos digitales de elevación, restitución e inspección de infraestructura.</p>
+      </div>
+      <div class="card" style="background: #FFFFFF; padding: 34px 30px 32px; border: 1px solid transparent">
+        <p class="mono" style="color: #6B7480; margin-bottom: 16px">05</p>
+        <h3 style="font-size: 22px; margin-bottom: 12px">Teledetección satelital</h3>
+        <p style="font-size: 16px; color: #6B7480">Análisis de imágenes de constelaciones abiertas y comerciales, ópticas y de radar: series temporales, cambio de cobertura y ortomosaicos de precisión.</p>
+      </div>
+      <div class="card" style="background: #FFFFFF; padding: 34px 30px 32px; border: 1px solid transparent">
+        <p class="mono" style="color: #6B7480; margin-bottom: 16px">06</p>
+        <h3 style="font-size: 22px; margin-bottom: 12px">Agricultura de precisión</h3>
+        <p style="font-size: 16px; color: #6B7480">Mapas multiespectrales con NDVI, NDWI y otros índices: vigor del cultivo, estrés hídrico y sequía, y delimitación de zonas intracampo.</p>
+      </div>
+      <div class="card" style="background: #FFFFFF; padding: 34px 30px 32px; border: 1px solid transparent">
+        <p class="mono" style="color: #6B7480; margin-bottom: 16px">07</p>
+        <h3 style="font-size: 22px; margin-bottom: 12px">Cartografía</h3>
+        <p style="font-size: 16px; color: #6B7480">Producción cartográfica urbana y regional a escala, planos oficiales, planos de mensura y hojas de salida listas para aprobación.</p>
+      </div>
+      <div class="card" style="background: #FFFFFF; padding: 34px 30px 32px; border: 1px solid transparent">
+        <p class="mono" style="color: #6B7480; margin-bottom: 16px">08</p>
+        <h3 style="font-size: 22px; margin-bottom: 12px">SIG y geodatabases</h3>
+        <p style="font-size: 16px; color: #6B7480">Modelos de datos, catastro, conciliación de bases registrales y espaciales, e integración en infraestructuras de datos espaciales.</p>
+      </div>
+      <div class="card" style="background: #FFFFFF; padding: 34px 30px 32px; border: 1px solid transparent">
+        <p class="mono" style="color: #6B7480; margin-bottom: 16px">09</p>
+        <h3 style="font-size: 22px; margin-bottom: 12px">Plataformas WebGIS</h3>
+        <p style="font-size: 16px; color: #6B7480">Visores, cuadros de mando y aplicaciones de campo desarrollados a medida sobre software de código abierto, alojados donde el cliente decida.</p>
+      </div>
+      <div class="card" style="background: #FFFFFF; padding: 34px 30px 32px; border: 1px solid transparent">
+        <p class="mono" style="color: #6B7480; margin-bottom: 16px">10</p>
+        <h3 style="font-size: 22px; margin-bottom: 12px">Mobile mapping</h3>
+        <p style="font-size: 16px; color: #6B7480">Captura 360° con IMU y GNSS para inventarios de activos viales y eléctricos, servidumbres, arbolado y sistemas de referencia lineal.</p>
+      </div>
+      <div class="card" style="background: #FFFFFF; padding: 34px 30px 32px; border: 1px solid transparent">
+        <p class="mono" style="color: #6B7480; margin-bottom: 16px">11</p>
+        <h3 style="font-size: 22px; margin-bottom: 12px">Impacto y factibilidad ambiental</h3>
+        <p style="font-size: 16px; color: #6B7480">Estudios de impacto ambiental y de factibilidad ambiental de proyectos, con la línea base, la cartografía temática y los modelos de terreno que los sustentan.</p>
+      </div>
+      <div class="card" style="background: #FFFFFF; padding: 34px 30px 32px; border: 1px solid transparent">
+        <p class="mono" style="color: #6B7480; margin-bottom: 16px">12</p>
+        <h3 style="font-size: 22px; margin-bottom: 12px">Territorio y ordenamiento</h3>
+        <p style="font-size: 16px; color: #6B7480">Estudios tenenciales, planes de ordenamiento territorial, zonas de inundabilidad y demarcación de áreas protegidas con sus planos oficiales.</p>
+      </div>
+    </div>
+    <div style="margin-top: 36px">
+      <a class="btn-line" href="servicios.html" style="border: 1px solid #15191E; color: #15191E; padding: 14px 26px; font-weight: 600; font-size: 15px; min-height: 48px; display: inline-flex; align-items: center">Ver el detalle de cada servicio</a>
+    </div>
+  </section>
+
+  <!-- entregables -->
+  <section style="background: #15191E; color: #FFFFFF">
+    <div class="onDark" style="max-width: 1240px; margin: 0 auto; padding: clamp(64px, 7vw, 104px) clamp(20px, 4vw, 56px)">
+      <div style="display: flex; flex-wrap: wrap; gap: 24px 64px; align-items: flex-end; margin-bottom: 52px">
+        <div style="flex: 1 1 340px; min-width: 0">
+          <p class="mono" style="color: #EA8095; margin-bottom: 18px">02 — Entregables</p>
+          <h2 style="font-size: clamp(30px, 3.2vw, 44px); max-width: 20ch">Productos que entregamos</h2>
+        </div>
+        <p style="flex: 1 1 320px; min-width: 0; color: #C3CAD3">Todos los productos se entregan georreferenciados, con su memoria técnica, el sistema de referencia declarado y las precisiones alcanzadas en el levantamiento.</p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 28px">
+        <figure style="margin: 0">
+          <img src="img/ortofoto-3d.jpg" alt="Ortomosaico de un área urbana representado en tres dimensiones" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: #1E242B">
+          <figcaption style="padding-top: 16px">
+            <h3 style="font-size: 19px; margin-bottom: 7px">Ortofotos y ortomosaicos</h3>
+            <p style="font-size: 15px; color: #9BA4B0">Resolución de hasta 3 cm/píxel, apoyadas en puntos de control medidos en campo.</p>
+          </figcaption>
+        </figure>
+        <figure style="margin: 0">
+          <img src="img/dem-relleno.jpg" alt="Modelo digital de elevación con rampa de color sobre un relleno sanitario" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: #1E242B">
+          <figcaption style="padding-top: 16px">
+            <h3 style="font-size: 19px; margin-bottom: 7px">Modelos digitales de elevación</h3>
+            <p style="font-size: 15px; color: #9BA4B0">Curvas de nivel, pendientes, cuencas y cubicaciones derivadas del modelo.</p>
+          </figcaption>
+        </figure>
+        <figure style="margin: 0">
+          <img src="img/nube-puntos.jpg" alt="Nube de puntos LiDAR de un área urbana coloreada por elevación" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: #1E242B">
+          <figcaption style="padding-top: 16px">
+            <h3 style="font-size: 19px; margin-bottom: 7px">Nubes de puntos y LiDAR</h3>
+            <p style="font-size: 15px; color: #9BA4B0">Clasificación de terreno y vegetación, cortes, perfiles y modelos 3D navegables.</p>
+          </figcaption>
+        </figure>
+        <figure style="margin: 0">
+          <img src="img/plano-aeropuerto.jpg" alt="Hoja de plano cartográfico con ortomosaico, grilla de coordenadas y cuadro de referencias" style="width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: #1E242B">
+          <figcaption style="padding-top: 16px">
+            <h3 style="font-size: 19px; margin-bottom: 7px">Planos, geodatabases y visores</h3>
+            <p style="font-size: 15px; color: #9BA4B0">Hojas listas para aprobación institucional, bases de datos documentadas y el visor web que las publica.</p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- proyectos -->
+  <section style="max-width: 1240px; margin: 0 auto; padding: clamp(64px, 7vw, 104px) clamp(20px, 4vw, 56px)">
+    <div style="display: flex; flex-wrap: wrap; gap: 20px 48px; align-items: flex-end; justify-content: space-between; margin-bottom: 48px">
+      <div style="flex: 1 1 360px; min-width: 0">
+        <p class="mono" style="color: #D4002B; margin-bottom: 18px">03 — Proyectos</p>
+        <h2 style="font-size: clamp(30px, 3.2vw, 44px); max-width: 18ch">Algunos trabajos realizados</h2>
+      </div>
+      <a href="proyectos.html" style="font-weight: 600; border-bottom: 2px solid #D4002B; padding-bottom: 2px">Ver más proyectos →</a>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 1px; background: #E2E5E9; border-top: 1px solid #E2E5E9; border-bottom: 1px solid #E2E5E9">
+      <article style="background: #FFFFFF; display: flex; flex-wrap: wrap; gap: 0 40px; align-items: stretch">
+        <img src="img/tocumen-apron.jpg" alt="Vista cenital del área de carga del Aeropuerto Internacional de Tocumen con una aeronave en plataforma" style="flex: 1 1 320px; min-width: 0; width: 100%; max-height: 300px; object-fit: cover">
+        <div style="flex: 1.3 1 380px; min-width: 0; padding: 36px 0 36px 0; display: flex; flex-direction: column; justify-content: center; gap: 14px">
+          <p class="mono" style="color: #6B7480">Aeropuerto Internacional de Tocumen S.A. · 2017</p>
+          <h3 style="font-size: clamp(24px, 2.2vw, 30px)">250 ha del área de carga de Tocumen</h3>
+          <p style="color: #6B7480; max-width: 58ch">Estudio de suelos, levantamiento fotogramétrico y elaboración de planos de superficie del área de carga del principal aeropuerto del país, ejecutado sobre plataforma en operación.</p>
+        </div>
+      </article>
+
+      <article style="background: #FFFFFF; display: flex; flex-wrap: wrap-reverse; gap: 0 40px; align-items: stretch">
+        <div style="flex: 1.3 1 380px; min-width: 0; padding: 36px 0; display: flex; flex-direction: column; justify-content: center; gap: 14px">
+          <p class="mono" style="color: #6B7480">Ministerio de Ambiente · 2018</p>
+          <h3 style="font-size: clamp(24px, 2.2vw, 30px)">Demarcación del Área Protegida del Cerro Ancón</h3>
+          <p style="color: #6B7480; max-width: 58ch">Red geodésica propia, estudio tenencial de las fincas colindantes, monumentación y señalización de los linderos, geodatabase y planos oficiales de las áreas verdes no desarrollables anexas al área protegida.</p>
+        </div>
+        <img src="img/rio-aereo.jpg" alt="Vista aérea de un cauce fluvial y su vegetación de ribera" style="flex: 1 1 320px; min-width: 0; width: 100%; max-height: 300px; object-fit: cover">
+      </article>
+
+      <article style="background: #FFFFFF; display: flex; flex-wrap: wrap; gap: 0 40px; align-items: stretch">
+        <img src="img/dem-detalle.jpg" alt="Modelo digital de elevación en tonos verdes con curvas de nivel sobre un terreno con vegetación" style="flex: 1 1 320px; min-width: 0; width: 100%; max-height: 300px; object-fit: cover">
+        <div style="flex: 1.3 1 380px; min-width: 0; padding: 36px 0; display: flex; flex-direction: column; justify-content: center; gap: 14px">
+          <p class="mono" style="color: #6B7480">Área de influencia de Barro Blanco · 2016</p>
+          <h3 style="font-size: clamp(24px, 2.2vw, 30px)">Cartografía 1:2.500 por métodos combinados</h3>
+          <p style="color: #6B7480; max-width: 58ch">Estudios técnicos y procesamiento de imágenes para la cartografía digital de alta precisión de las áreas de influencia de la presa hidroeléctrica y de las zonas comarcales afectadas, en Chiriquí y la Comarca Ngöbe-Buglé, con determinación de cotas de inundabilidad.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- clientes y alianzas -->
+  <section style="background: #F5F6F7; border-top: 1px solid #E2E5E9; border-bottom: 1px solid #E2E5E9">
+    <div style="max-width: 1240px; margin: 0 auto; padding: clamp(52px, 6vw, 84px) clamp(20px, 4vw, 56px); display: flex; flex-wrap: wrap; gap: 44px 72px">
+      <div style="flex: 1 1 300px; min-width: 0">
+        <p class="mono" style="color: #D4002B; margin-bottom: 18px">04 — Referencias</p>
+        <h2 style="font-size: clamp(26px, 2.6vw, 34px); margin-bottom: 16px">Clientes</h2>
+        <ul style="display: flex; flex-wrap: wrap; gap: 10px 12px">
+          <li style="border: 1px solid #D5DAE0; padding: 9px 15px; font-size: 15px; font-weight: 500">Ministerio de Ambiente</li>
+          <li style="border: 1px solid #D5DAE0; padding: 9px 15px; font-size: 15px; font-weight: 500">Aeropuerto Int. de Tocumen</li>
+          <li style="border: 1px solid #D5DAE0; padding: 9px 15px; font-size: 15px; font-weight: 500">ANATI</li>
+          <li style="border: 1px solid #D5DAE0; padding: 9px 15px; font-size: 15px; font-weight: 500">Ministerio de Economía y Finanzas</li>
+          <li style="border: 1px solid #D5DAE0; padding: 9px 15px; font-size: 15px; font-weight: 500">IGN «Tommy Guardia»</li>
+          <li style="border: 1px solid #D5DAE0; padding: 9px 15px; font-size: 15px; font-weight: 500">Autoridad Aeronáutica Civil</li>
+          <li style="border: 1px solid #D5DAE0; padding: 9px 15px; font-size: 15px; font-weight: 500">IDAAN</li>
+          <li style="border: 1px solid #D5DAE0; padding: 9px 15px; font-size: 15px; font-weight: 500">Transener</li>
+          <li style="border: 1px solid #D5DAE0; padding: 9px 15px; font-size: 15px; font-weight: 500">Telespazio</li>
+          <li style="border: 1px solid #D5DAE0; padding: 9px 15px; font-size: 15px; font-weight: 500">Municipio de Chame</li>
+        </ul>
+      </div>
+      <div style="flex: 1 1 300px; min-width: 0">
+        <p class="mono" style="color: #6B7480; margin-bottom: 18px">Alianzas</p>
+        <h2 style="font-size: clamp(26px, 2.6vw, 34px); margin-bottom: 20px">Con quién trabajamos</h2>
+        <div style="display: flex; flex-direction: column; gap: 18px">
+          <div style="border-left: 3px solid #D4002B; padding-left: 16px">
+            <h3 style="font-size: 18px; margin-bottom: 4px">C-ASTRAL Aerospace</h3>
+            <p style="font-size: 15px; color: #6B7480">Sistemas aéreos no tripulados de ala fija para cobertura de grandes superficies.</p>
+          </div>
+          <div style="border-left: 3px solid #D4002B; padding-left: 16px">
+            <h3 style="font-size: 18px; margin-bottom: 4px">Estudio Terra S.A. — Argentina</h3>
+            <p style="font-size: 15px; color: #6B7480">Ingeniería del territorio, obras viales e hidráulicas y relevamientos de precisión en el Cono Sur.</p>
+          </div>
+          <div style="border-left: 3px solid #D4002B; padding-left: 16px">
+            <h3 style="font-size: 18px; margin-bottom: 4px">Software de código abierto</h3>
+            <p style="font-size: 15px; color: #6B7480">Nuestras plataformas se construyen sobre estándares y herramientas abiertas, sin licencias que el cliente deba renovar para seguir usando su sistema.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- cta -->
+  <section style="position: relative; background: #15191E; color: #FFFFFF; overflow: hidden">
+    <img src="img/dem-sobre-mosaico.jpg" alt="Ortomosaico de un área urbana con las curvas de nivel del modelo digital superpuestas" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover">
+    <div style="position: absolute; inset: 0; background: linear-gradient(90deg, rgba(15,18,23,0.95) 0%, rgba(15,18,23,0.72) 60%, rgba(15,18,23,0.45) 100%)"></div>
+    <div style="position: relative; max-width: 1240px; margin: 0 auto; padding: clamp(56px, 6vw, 92px) clamp(20px, 4vw, 56px); display: flex; flex-wrap: wrap; gap: 32px 64px; align-items: center; justify-content: space-between">
+      <div style="flex: 1 1 400px; min-width: 0">
+        <h2 style="font-size: clamp(28px, 3vw, 40px); max-width: 20ch; margin-bottom: 14px">Solicite una propuesta técnica</h2>
+        <p style="color: #C3CAD3; max-width: 52ch">Indíquenos el área de trabajo, la precisión requerida y la fecha prevista. Le respondemos con la metodología, los productos a entregar, los plazos y el presupuesto.</p>
+      </div>
+      <a class="btn-red" href="contacto.html" style="background: #D4002B; color: #FFFFFF; padding: 17px 32px; font-weight: 600; font-size: 17px; min-height: 48px; display: inline-flex; align-items: center; flex: 0 0 auto">Solicitar propuesta</a>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer style="background: #0E1115; color: #9BA4B0">
+    <div class="onDark" style="max-width: 1240px; margin: 0 auto; padding: clamp(48px, 5vw, 72px) clamp(20px, 4vw, 56px) 32px; display: flex; flex-wrap: wrap; gap: 40px 64px">
+      <div style="flex: 1 1 280px; min-width: 0">
+        <img src="img/logo-horizontal-blanco.svg" alt="GeoMap Inc. S.A." style="height: 26px; width: auto; margin-bottom: 22px">
+        <p style="font-size: 15px; max-width: 34ch">Geodesia, topografía, fotogrametría, teledetección, cartografía, SIG y estudios ambientales.</p>
+      </div>
+      <div style="flex: 1 1 200px; min-width: 0">
+        <p class="mono" style="color: #8A94A1; margin-bottom: 16px">Navegación</p>
+        <ul style="display: flex; flex-direction: column; gap: 10px; font-size: 15px">
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="proyectos.html">Proyectos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div style="flex: 1 1 280px; min-width: 0">
+        <p class="mono" style="color: #8A94A1; margin-bottom: 16px">Oficina</p>
+        <p style="font-size: 15px; max-width: 32ch; margin-bottom: 12px">Edificio Centro Empresarial Mar del Sur, 4.º piso<br>Calle Primera, El Carmen<br>Ciudad de Panamá, República de Panamá</p>
+        <a href="https://www.google.com/maps/search/?api=1&amp;query=Centro%20Empresarial%20Mar%20del%20Sur%2C%20Calle%20Primera%2C%20El%20Carmen%2C%20Ciudad%20de%20Panam%C3%A1" style="font-size: 15px; font-weight: 600">Ver en Google Maps →</a>
+      </div>
+      <div style="flex: 1 1 220px; min-width: 0">
+        <p class="mono" style="color: #8A94A1; margin-bottom: 16px">Contacto</p>
+        <p style="font-size: 15px; margin-bottom: 18px"><a href="mailto:info@geomapgroup.com">info@geomapgroup.com</a></p>
+        <div style="display: flex; flex-wrap: wrap; gap: 10px">
+          <a href="https://wa.me/5491154170407" aria-label="Contactar por WhatsApp" title="WhatsApp" style="font-size: 15px; font-weight: 600; border: 1px solid #39414B; padding: 9px 14px; display: inline-flex; align-items: center; gap: 8px; min-height: 44px"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 11.4c0 4-3.6 7.3-8 7.3a9 9 0 0 1-2.9-.5L4 19.8l1.5-3.8A7 7 0 0 1 4 11.4C4 7.4 7.6 4 12 4s8 3.4 8 7.4z"></path></svg>WhatsApp</a>
+          <a href="https://www.linkedin.com/company/geomap-inc-panama/" style="font-size: 15px; font-weight: 600; border: 1px solid #39414B; padding: 9px 14px; display: inline-flex; align-items: center; min-height: 44px">LinkedIn ↗</a>
+        </div>
+      </div>
+    </div>
+    <div style="border-top: 1px solid rgba(255,255,255,0.12)">
+      <div class="mono onDark" style="max-width: 1240px; margin: 0 auto; padding: 20px clamp(20px, 4vw, 56px); display: flex; flex-wrap: wrap; gap: 8px 28px; justify-content: space-between; color: #8A94A1">
+        <span>© 2026 GeoMap Inc. S.A.</span>
+        <span>Ciudad de Panamá</span>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
