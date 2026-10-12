@@ -8,15 +8,15 @@
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="img/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
-<meta name="theme-color" content="#F4F2ED">
+<meta name="theme-color" content="#FFFFFF">
 <meta property="og:title" content="GeoMap GIS — Muy pronto disponible">
 <meta property="og:description" content="La plataforma WebGIS de GeoMap Inc. para seguir parcelas y áreas con imágenes satelitales.">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&display=swap" rel="stylesheet">
 <style>
-/* Colores de la plataforma GeoMap GIS (crema, tinta y rojo GeoMap) */
-:root{--crema:#F4F2ED;--crema-2:#E7E3DA;--linea:#D4CFC4;--tinta:#0C1518;--tinta-2:#4E5C61;--tinta-3:#8A979B;--rojo:#C8102E;--bordo:#A50D26}
+/* Colores del sitio GeoMap: blanco, tinta y rojo */
+:root{--crema:#FFFFFF;--crema-2:#F5F6F7;--linea:#E2E5E9;--tinta:#15191E;--tinta-2:#6B7480;--tinta-3:#9BA4B0;--rojo:#D4002B;--bordo:#9F0020}
 *{box-sizing:border-box}
 html,body{height:100%}
 body{margin:0;background:var(--crema);color:var(--tinta);font-family:'Inter',system-ui,-apple-system,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
@@ -35,7 +35,7 @@ main{flex:1;display:flex;align-items:center}
 main .ancho{padding-top:clamp(40px,7vw,96px);padding-bottom:clamp(48px,7vw,96px)}
 .kicker{color:var(--bordo);margin-bottom:22px;display:flex;align-items:center;gap:10px}
 .punto{width:8px;height:8px;border-radius:50%;background:var(--rojo);animation:latido 2.2s infinite}
-@keyframes latido{0%{box-shadow:0 0 0 0 rgba(200,16,46,.45)}70%{box-shadow:0 0 0 10px rgba(200,16,46,0)}100%{box-shadow:0 0 0 0 rgba(200,16,46,0)}}
+@keyframes latido{0%{box-shadow:0 0 0 0 rgba(212,0,43,.45)}70%{box-shadow:0 0 0 10px rgba(212,0,43,0)}100%{box-shadow:0 0 0 0 rgba(212,0,43,0)}}
 @media (prefers-reduced-motion:reduce){.punto{animation:none}}
 h1{font-size:clamp(44px,6.4vw,88px);max-width:13ch;margin-bottom:26px}
 h1 span{color:var(--rojo)}
